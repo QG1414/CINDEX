@@ -1,0 +1,134 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "Tree.h"
+#include <memory.h>
+
+LP_TreeItem ReadInputFile( char* fileName ); // function to read data from file
+void WriteOutputFile( LP_TreeItem tree ); // function to write data into file
+int IsIdentifier( char c ); // checking if letter is correct to be used as identifier
+int IsStartingIdentifier( char c ); // checking if letter is correct to be used as first letter in identifier
+
+#define ARGCNUM 2 // number of arguments passed to main
+#define WORDLENGTH 5 // words length
+#define OUTPUTFILE "WordsIndex.txt" // name of output file
+
+int main( int argc, char* argv[] )
+{
+  if( argc != ARGCNUM )
+  {
+    printf( "Usage %s <input_file.txt>", argv[0] );
+    return 1;
+  }
+
+  LP_TreeItem tree = ReadInputFile( argv[1] );
+
+  if( !tree )
+  {
+    printf( "while reading data error occured or file is empty\n" );
+    return 2;
+  }
+
+  WriteOutputFile( tree );
+
+  return 0;
+}
+
+LP_TreeItem ReadInputFile( char* fileName )
+{
+  FILE* file = fopen( fileName, "r" );
+  LP_TreeItem tree = NULL;
+
+  if( !file )
+    return NULL;
+
+  char letter;
+  int lineNo = 1;
+
+  while( ( letter = fgetc( file ) ) != EOF )
+  {
+    if( letter == '\n' )
+    {
+      lineNo++;
+      continue;
+    }
+
+    char* word = (char*)calloc( WORDLENGTH, sizeof( char ) );
+
+    if( !word )
+    {
+      fclose( file );
+      return NULL;
+    }
+
+    int letterNo = 0;
+    int wordSize = WORDLENGTH;
+
+    if( !IsStartingIdentifier( letter ) )
+      continue;
+
+    word[letterNo++] = letter;
+    letter = fgetc( file );
+
+    while( IsIdentifier( letter ) )
+    {
+      if( letterNo >= wordSize - 1)
+      {
+        word = (char*)realloc( word, wordSize + WORDLENGTH );
+
+        if( !word )
+        {
+          fclose( file );
+          return NULL;
+        }
+
+        memset( word + wordSize, 0, WORDLENGTH );
+        wordSize += WORDLENGTH;
+      }
+
+      word[letterNo++] = letter;
+      letter = fgetc( file );
+    }
+
+    ungetc( letter, file );
+    FindInsert( &tree, word, lineNo );
+  }
+
+  fclose( file );
+  return tree;
+}
+
+void WriteOutputFile( LP_TreeItem tree )
+{
+  if( !tree )
+  {
+    printf( "ERROR TreeItem was not provided\n" );
+    return;
+  }
+
+  FILE* wFile = fopen( OUTPUTFILE, "w" );
+
+  if( !wFile )
+  {
+    printf( "ERROR while opening file to write data\n" );
+    return;
+  }
+
+  inOrder( tree, wFile );
+
+  fclose( wFile );
+
+  printf( "file <%s> was created sucessfully\n", OUTPUTFILE );
+}
+
+int IsIdentifier( char c )
+{
+  return ( ( c >= 'A' && c <= 'Z' ) || ( c >= 'a' && c <= 'z' ) || ( c >= '0' && c <= '9' ) || c == '_' );
+}
+
+int IsStartingIdentifier( char c )
+{
+  if( c >= '0' && c <= '9' )
+    return 0;
+
+  return IsIdentifier( c );
+}

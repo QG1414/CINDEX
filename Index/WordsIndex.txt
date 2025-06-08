@@ -1,0 +1,188 @@
+ident: _ | count: 1 | encounter lines: 125 
+
+ident: A | count: 2 | encounter lines: 125 
+
+ident: argc | count: 2 | encounter lines: 15 17 
+
+ident: ARGCNUM | count: 2 | encounter lines: 11 17 
+
+ident: arguments | count: 1 | encounter lines: 11 
+
+ident: argv | count: 3 | encounter lines: 15 19 23 
+
+ident: as | count: 2 | encounter lines: 8 9 
+
+ident: be | count: 2 | encounter lines: 8 9 
+
+ident: c | count: 14 | encounter lines: 8 9 123 125 125 125 125 125 125 125 128 130 130 133 
+
+ident: calloc | count: 1 | encounter lines: 55 
+
+ident: char | count: 12 | encounter lines: 6 8 9 15 36 44 55 55 55 76 123 128 
+
+ident: checking | count: 2 | encounter lines: 8 9 
+
+ident: continue | count: 2 | encounter lines: 52 67 
+
+ident: correct | count: 2 | encounter lines: 8 9 
+
+ident: created | count: 1 | encounter lines: 120 
+
+ident: data | count: 4 | encounter lines: 6 7 27 112 
+
+ident: define | count: 3 | encounter lines: 11 12 13 
+
+ident: empty | count: 1 | encounter lines: 27 
+
+ident: EOF | count: 1 | encounter lines: 47 
+
+ident: error | count: 3 | encounter lines: 27 104 112 
+
+ident: fclose | count: 4 | encounter lines: 59 80 96 118 
+
+ident: fgetc | count: 3 | encounter lines: 47 70 89 
+
+ident: file | count: 17 | encounter lines: 6 7 13 27 38 38 41 47 59 70 80 89 92 96 108 112 120 
+
+ident: fileName | count: 3 | encounter lines: 6 36 38 
+
+ident: FindInsert | count: 1 | encounter lines: 93 
+
+ident: first | count: 1 | encounter lines: 9 
+
+ident: fopen | count: 2 | encounter lines: 38 108 
+
+ident: from | count: 1 | encounter lines: 6 
+
+ident: function | count: 2 | encounter lines: 6 7 
+
+ident: h | count: 4 | encounter lines: 1 2 3 4 
+
+ident: identifier | count: 2 | encounter lines: 8 9 
+
+ident: if | count: 13 | encounter lines: 8 9 17 25 41 49 57 66 74 78 102 110 130 
+
+ident: in | count: 1 | encounter lines: 9 
+
+ident: include | count: 4 | encounter lines: 1 2 3 4 
+
+ident: inOrder | count: 1 | encounter lines: 116 
+
+ident: input_file | count: 1 | encounter lines: 19 
+
+ident: int | count: 9 | encounter lines: 8 9 15 15 45 63 64 123 128 
+
+ident: into | count: 1 | encounter lines: 7 
+
+ident: is | count: 3 | encounter lines: 8 9 27 
+
+ident: IsIdentifier | count: 4 | encounter lines: 8 72 123 133 
+
+ident: IsStartingIdentifier | count: 3 | encounter lines: 9 66 128 
+
+ident: length | count: 1 | encounter lines: 12 
+
+ident: letter | count: 13 | encounter lines: 8 9 9 44 47 49 66 69 70 72 88 89 92 
+
+ident: letterNo | count: 4 | encounter lines: 63 69 74 88 
+
+ident: lineNo | count: 3 | encounter lines: 45 51 93 
+
+ident: LP_TreeItem | count: 6 | encounter lines: 6 7 23 36 39 100 
+
+ident: main | count: 2 | encounter lines: 11 15 
+
+ident: memory | count: 1 | encounter lines: 4 
+
+ident: memset | count: 1 | encounter lines: 84 
+
+ident: n | count: 5 | encounter lines: 27 49 104 112 120 
+
+ident: name | count: 1 | encounter lines: 13 
+
+ident: not | count: 1 | encounter lines: 104 
+
+ident: NULL | count: 4 | encounter lines: 39 42 60 81 
+
+ident: number | count: 1 | encounter lines: 11 
+
+ident: occured | count: 1 | encounter lines: 27 
+
+ident: of | count: 2 | encounter lines: 11 13 
+
+ident: opening | count: 1 | encounter lines: 112 
+
+ident: or | count: 1 | encounter lines: 27 
+
+ident: output | count: 1 | encounter lines: 13 
+
+ident: OUTPUTFILE | count: 3 | encounter lines: 13 108 120 
+
+ident: passed | count: 1 | encounter lines: 11 
+
+ident: printf | count: 5 | encounter lines: 19 27 104 112 120 
+
+ident: provided | count: 1 | encounter lines: 104 
+
+ident: r | count: 1 | encounter lines: 38 
+
+ident: read | count: 1 | encounter lines: 6 
+
+ident: reading | count: 1 | encounter lines: 27 
+
+ident: ReadInputFile | count: 3 | encounter lines: 6 23 36 
+
+ident: realloc | count: 1 | encounter lines: 76 
+
+ident: return | count: 12 | encounter lines: 20 28 33 42 60 81 97 105 113 125 131 133 
+
+ident: s | count: 2 | encounter lines: 19 120 
+
+ident: sizeof | count: 1 | encounter lines: 55 
+
+ident: stdio | count: 1 | encounter lines: 1 
+
+ident: stdlib | count: 1 | encounter lines: 2 
+
+ident: sucessfully | count: 1 | encounter lines: 120 
+
+ident: to | count: 6 | encounter lines: 6 7 8 9 11 112 
+
+ident: Tree | count: 11 | encounter lines: 3 7 23 25 31 39 93 97 100 102 116 
+
+ident: TreeItem | count: 1 | encounter lines: 104 
+
+ident: txt | count: 2 | encounter lines: 13 19 
+
+ident: ungetc | count: 1 | encounter lines: 92 
+
+ident: Usage | count: 1 | encounter lines: 19 
+
+ident: used | count: 2 | encounter lines: 8 9 
+
+ident: void | count: 2 | encounter lines: 7 100 
+
+ident: w | count: 1 | encounter lines: 108 
+
+ident: was | count: 2 | encounter lines: 104 120 
+
+ident: wFile | count: 4 | encounter lines: 108 110 116 118 
+
+ident: while | count: 4 | encounter lines: 27 47 72 112 
+
+ident: word | count: 9 | encounter lines: 55 57 69 76 76 78 84 88 93 
+
+ident: WORDLENGTH | count: 6 | encounter lines: 12 55 64 76 84 85 
+
+ident: words | count: 1 | encounter lines: 12 
+
+ident: WordsIndex | count: 1 | encounter lines: 13 
+
+ident: wordSize | count: 5 | encounter lines: 64 74 76 84 85 
+
+ident: write | count: 2 | encounter lines: 7 112 
+
+ident: WriteOutputFile | count: 3 | encounter lines: 7 31 100 
+
+ident: Z | count: 2 | encounter lines: 125 
+
