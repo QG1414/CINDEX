@@ -54,6 +54,12 @@ LP_TreeItem ReadInputFile( char* fileName )
       continue;
     }
 
+    int letterNo = 0;
+    int wordSize = WORDLENGTH; // set size of tree because it will be changing
+
+    if( !IsStartingIdentifier( letter ) ) // check if letter can be start of word
+      continue;
+
     char* word = (char*)calloc( WORDLENGTH, sizeof( char ) ); // create word for saving data with basic size
 
     if( !word ) // checking if word was created if not close file, and free tree if exists
@@ -65,12 +71,6 @@ LP_TreeItem ReadInputFile( char* fileName )
 
       return NULL;
     }
-
-    int letterNo = 0;
-    int wordSize = WORDLENGTH; // set size of tree because it will be changing
-
-    if( !IsStartingIdentifier( letter ) ) // check if letter can be start of word
-      continue;
 
     word[letterNo++] = letter; // set letter at the correct position of word
     letter = fgetc( file ); // get next letter
@@ -131,13 +131,10 @@ void WriteOutputFile( LP_TreeItem tree )
 
 int IsIdentifier( char c ) // function to check if letter can be a identifier
 {
-  return ( ( c >= 'A' && c <= 'Z' ) || ( c >= 'a' && c <= 'z' ) || ( c >= '0' && c <= '9' ) || c == '_' );
+  return ( ( c >= '0' && c <= '9' ) ? 1 : IsStartingIdentifier( c ) );
 }
 
 int IsStartingIdentifier( char c ) // function to check if letter can be a start of identifier
 {
-  if( c >= '0' && c <= '9' )
-    return 0;
-
-  return IsIdentifier( c );
+  return ( ( c >= 'A' && c <= 'Z' ) || ( c >= 'a' && c <= 'z' ) || c == '_' );
 }
