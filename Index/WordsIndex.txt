@@ -1,332 +1,116 @@
-ident: _ | count: 1 | encounter lines: 134 
+ident: aby | count: 1 | encounter lines: 49 
 
-ident: a | count: 6 | encounter lines: 31 93 132 134 134 137 
+ident: brak | count: 1 | encounter lines: 49 
 
-ident: add | count: 2 | encounter lines: 97 102 
+ident: byl | count: 1 | encounter lines: 49 
 
-ident: and | count: 5 | encounter lines: 23 51 59 101 125 
+ident: calloc | count: 2 | encounter lines: 11 24 
 
-ident: argc | count: 2 | encounter lines: 15 17 
+ident: cerr | count: 1 | encounter lines: 73 
 
-ident: ARGCNUM | count: 2 | encounter lines: 11 17 
+ident: d | count: 1 | encounter lines: 99 
 
-ident: arguments | count: 2 | encounter lines: 11 17 
+ident: else | count: 1 | encounter lines: 29 
 
-ident: argv | count: 3 | encounter lines: 15 19 23 
+ident: empty | count: 1 | encounter lines: 77 
 
-ident: as | count: 3 | encounter lines: 8 9 78 
+ident: exists | count: 1 | encounter lines: 92 
 
-ident: at | count: 1 | encounter lines: 75 
+ident: free | count: 2 | encounter lines: 65 84 
 
-ident: basic | count: 1 | encounter lines: 57 
+ident: gdy | count: 1 | encounter lines: 49 
 
-ident: be | count: 8 | encounter lines: 8 9 70 72 78 101 132 137 
+ident: h | count: 3 | encounter lines: 2 3 4 
 
-ident: because | count: 1 | encounter lines: 70 
+ident: if | count: 10 | encounter lines: 22 25 28 39 49 59 72 76 85 91 
 
-ident: bigger | count: 1 | encounter lines: 82 
+ident: include | count: 3 | encounter lines: 2 3 4 
 
-ident: by | count: 1 | encounter lines: 101 
+ident: Info | count: 3 | encounter lines: 27 41 99 
 
-ident: c | count: 14 | encounter lines: 8 9 132 134 134 134 134 134 134 134 137 139 139 142 
+ident: int | count: 5 | encounter lines: 15 20 37 41 
 
-ident: calloc | count: 1 | encounter lines: 57 
+ident: is | count: 1 | encounter lines: 77 
 
-ident: can | count: 4 | encounter lines: 72 101 132 137 
+ident: juz | count: 1 | encounter lines: 81 
 
-ident: change | count: 1 | encounter lines: 12 
+ident: kolejki | count: 1 | encounter lines: 49 
 
-ident: changing | count: 1 | encounter lines: 70 
+ident: komunikat | count: 1 | encounter lines: 49 
 
-ident: char | count: 12 | encounter lines: 6 8 9 15 38 46 57 57 57 82 132 137 
+ident: missing | count: 3 | encounter lines: 50 61 73 
 
-ident: check | count: 6 | encounter lines: 72 84 111 119 132 137 
+ident: n | count: 10 | encounter lines: 50 61 73 77 92 
 
-ident: checked | count: 1 | encounter lines: 101 
+ident: not | count: 1 | encounter lines: 92 
 
-ident: checking | count: 6 | encounter lines: 8 9 17 25 43 59 
+ident: NULL | count: 3 | encounter lines: 39 66 86 
 
-ident: cheng | count: 1 | encounter lines: 94 
+ident: p | count: 14 | encounter lines: 24 25 27 28 30 31 82 83 84 96 97 99 100 
 
-ident: close | count: 3 | encounter lines: 59 105 127 
+ident: pHead | count: 6 | encounter lines: 17 28 41 82 83 96 
 
-ident: continue | count: 2 | encounter lines: 54 73 
+ident: pNext | count: 3 | encounter lines: 30 83 100 
 
-ident: correct | count: 6 | encounter lines: 8 9 17 75 78 97 
+ident: po | count: 1 | encounter lines: 81 
 
-ident: create | count: 2 | encounter lines: 57 93 
+ident: printf | count: 5 | encounter lines: 50 61 77 92 99 
 
-ident: created | count: 3 | encounter lines: 59 125 129 
+ident: pTail | count: 3 | encounter lines: 30 31 86 
 
-ident: creating | count: 1 | encounter lines: 41 
+ident: q | count: 34 | encounter lines: 6 15 17 20 22 28 30 31 37 39 41 42 47 49 53 57 59 64 65 66 69 72 76 82 83 85 86 89 91 96 
 
-ident: current | count: 1 | encounter lines: 94 
+ident: QClear | count: 1 | encounter lines: 50 
 
-ident: data | count: 7 | encounter lines: 6 7 27 31 57 93 121 
+ident: QDel | count: 2 | encounter lines: 73 77 
 
-ident: define | count: 3 | encounter lines: 11 12 13 
+ident: QFClear | count: 2 | encounter lines: 47 64 
 
-ident: detection | count: 1 | encounter lines: 101 
+ident: QFCreate | count: 1 | encounter lines: 9 
 
-ident: don | count: 1 | encounter lines: 49 
+ident: QFDel | count: 3 | encounter lines: 6 42 69 
 
-ident: empty | count: 1 | encounter lines: 27 
+ident: QFDequeue | count: 2 | encounter lines: 37 53 
 
-ident: end | count: 1 | encounter lines: 49 
+ident: QFEmpty | count: 6 | encounter lines: 15 28 39 53 76 85 
 
-ident: EOF | count: 1 | encounter lines: 49 
+ident: QFEnqueue | count: 1 | encounter lines: 20 
 
-ident: error | count: 3 | encounter lines: 27 113 121 
+ident: QFifo | count: 11 | encounter lines: 6 9 11 15 20 37 47 57 69 89 
 
-ident: exceeded | count: 1 | encounter lines: 80 
+ident: QFItem | count: 5 | encounter lines: 24 82 96 
 
-ident: exists | count: 2 | encounter lines: 59 111 
+ident: QFPrint | count: 2 | encounter lines: 89 92 
 
-ident: fclose | count: 4 | encounter lines: 61 86 105 127 
+ident: QFRemove | count: 1 | encounter lines: 57 
 
-ident: fgetc | count: 3 | encounter lines: 49 76 98 
+ident: QRemove | count: 1 | encounter lines: 61 
 
-ident: file | count: 28 | encounter lines: 6 7 13 27 31 40 40 40 43 43 49 49 59 61 76 86 98 101 105 105 111 117 117 119 121 125 127 129 
+ident: Queue | count: 6 | encounter lines: 4 50 61 73 77 92 
 
-ident: fileName | count: 3 | encounter lines: 6 38 40 
+ident: Res | count: 2 | encounter lines: 41 43 
 
-ident: FindInsert | count: 1 | encounter lines: 102 
+ident: return | count: 12 | encounter lines: 11 17 22 25 33 39 43 51 62 74 78 93 
 
-ident: first | count: 1 | encounter lines: 9 
+ident: sizeof | count: 2 | encounter lines: 11 24 
 
-ident: fopen | count: 2 | encounter lines: 40 117 
+ident: sprawdz | count: 1 | encounter lines: 49 
 
-ident: for | count: 3 | encounter lines: 57 80 129 
+ident: sprawdzeniu | count: 1 | encounter lines: 81 
 
-ident: free | count: 3 | encounter lines: 33 59 80 
+ident: stdio | count: 1 | encounter lines: 2 
 
-ident: FreeTree | count: 3 | encounter lines: 33 64 89 
+ident: stdlib | count: 1 | encounter lines: 3 
 
-ident: from | count: 3 | encounter lines: 6 31 33 
+ident: to | count: 1 | encounter lines: 81 
 
-ident: function | count: 4 | encounter lines: 6 7 132 137 
+ident: void | count: 5 | encounter lines: 6 47 57 69 89 
 
-ident: get | count: 2 | encounter lines: 76 98 
+ident: while | count: 2 | encounter lines: 53 97 
 
-ident: go | count: 1 | encounter lines: 125 
+ident: wykonywane | count: 1 | encounter lines: 81 
 
-ident: h | count: 4 | encounter lines: 1 2 3 4 
+ident: wylacznie | count: 1 | encounter lines: 81 
 
-ident: identifier | count: 5 | encounter lines: 8 9 78 132 137 
-
-ident: if | count: 29 | encounter lines: 8 9 17 17 25 25 43 43 51 51 59 59 59 59 63 72 72 80 80 84 84 88 111 111 119 119 132 137 139 
-
-ident: in | count: 4 | encounter lines: 9 40 117 125 
-
-ident: include | count: 4 | encounter lines: 1 2 3 4 
-
-ident: increase | count: 1 | encounter lines: 51 
-
-ident: inOrder | count: 1 | encounter lines: 125 
-
-ident: input | count: 1 | encounter lines: 23 
-
-ident: input_file | count: 1 | encounter lines: 19 
-
-ident: int | count: 9 | encounter lines: 8 9 15 15 47 69 70 132 137 
-
-ident: into | count: 2 | encounter lines: 7 31 
-
-ident: is | count: 6 | encounter lines: 8 9 17 25 27 78 
-
-ident: IsIdentifier | count: 4 | encounter lines: 8 78 132 142 
-
-ident: IsStartingIdentifier | count: 3 | encounter lines: 9 72 137 
-
-ident: it | count: 3 | encounter lines: 70 101 125 
-
-ident: its | count: 1 | encounter lines: 51 
-
-ident: last | count: 1 | encounter lines: 101 
-
-ident: length | count: 1 | encounter lines: 12 
-
-ident: letter | count: 22 | encounter lines: 8 9 9 46 49 51 72 72 75 75 76 76 78 78 97 97 98 98 101 101 132 137 
-
-ident: letterNo | count: 4 | encounter lines: 69 75 80 97 
-
-ident: letters | count: 1 | encounter lines: 80 
-
-ident: line | count: 3 | encounter lines: 51 101 
-
-ident: lineNo | count: 3 | encounter lines: 47 53 102 
-
-ident: loop | count: 1 | encounter lines: 101 
-
-ident: LP_TreeItem | count: 6 | encounter lines: 6 7 23 38 41 109 
-
-ident: main | count: 3 | encounter lines: 11 15 101 
-
-ident: max | count: 1 | encounter lines: 94 
-
-ident: memory | count: 3 | encounter lines: 4 33 82 
-
-ident: memset | count: 1 | encounter lines: 93 
-
-ident: message | count: 1 | encounter lines: 129 
-
-ident: mode | count: 2 | encounter lines: 40 117 
-
-ident: n | count: 5 | encounter lines: 27 51 113 121 129 
-
-ident: name | count: 1 | encounter lines: 13 
-
-ident: new | count: 8 | encounter lines: 51 78 82 93 97 98 101 102 
-
-ident: next | count: 1 | encounter lines: 76 
-
-ident: not | count: 4 | encounter lines: 25 59 93 113 
-
-ident: null | count: 6 | encounter lines: 25 41 41 44 66 90 
-
-ident: number | count: 3 | encounter lines: 11 17 51 
-
-ident: occured | count: 1 | encounter lines: 27 
-
-ident: of | count: 8 | encounter lines: 11 13 17 49 70 72 75 137 
-
-ident: open | count: 2 | encounter lines: 40 117 
-
-ident: opened | count: 2 | encounter lines: 43 119 
-
-ident: opening | count: 1 | encounter lines: 121 
-
-ident: or | count: 1 | encounter lines: 27 
-
-ident: order | count: 1 | encounter lines: 125 
-
-ident: output | count: 1 | encounter lines: 13 
-
-ident: OUTPUTFILE | count: 3 | encounter lines: 13 117 129 
-
-ident: passed | count: 1 | encounter lines: 11 
-
-ident: pointer | count: 4 | encounter lines: 23 25 41 125 
-
-ident: position | count: 1 | encounter lines: 75 
-
-ident: printf | count: 5 | encounter lines: 19 27 113 121 129 
-
-ident: problem | count: 1 | encounter lines: 93 
-
-ident: provided | count: 1 | encounter lines: 113 
-
-ident: r | count: 1 | encounter lines: 40 
-
-ident: reach | count: 1 | encounter lines: 49 
-
-ident: read | count: 2 | encounter lines: 6 40 
-
-ident: reading | count: 3 | encounter lines: 23 27 93 
-
-ident: ReadInputFile | count: 3 | encounter lines: 6 23 38 
-
-ident: realloc | count: 2 | encounter lines: 82 
-
-ident: reallocation | count: 1 | encounter lines: 84 
-
-ident: return | count: 13 | encounter lines: 20 28 35 44 66 90 101 106 114 122 134 140 142 
-
-ident: returning | count: 1 | encounter lines: 23 
-
-ident: s | count: 2 | encounter lines: 19 129 
-
-ident: save | count: 1 | encounter lines: 125 
-
-ident: saving | count: 1 | encounter lines: 57 
-
-ident: set | count: 3 | encounter lines: 70 75 93 
-
-ident: size | count: 4 | encounter lines: 57 70 82 94 
-
-ident: sizeof | count: 1 | encounter lines: 57 
-
-ident: skip | count: 1 | encounter lines: 51 
-
-ident: space | count: 2 | encounter lines: 80 93 
-
-ident: spot | count: 1 | encounter lines: 97 
-
-ident: start | count: 2 | encounter lines: 72 137 
-
-ident: stdio | count: 1 | encounter lines: 1 
-
-ident: stdlib | count: 1 | encounter lines: 2 
-
-ident: sucessful | count: 1 | encounter lines: 84 
-
-ident: sucessfully | count: 1 | encounter lines: 129 
-
-ident: sucessfuly | count: 1 | encounter lines: 119 
-
-ident: t | count: 1 | encounter lines: 49 
-
-ident: that | count: 1 | encounter lines: 101 
-
-ident: the | count: 1 | encounter lines: 75 
-
-ident: then | count: 1 | encounter lines: 51 
-
-ident: through | count: 1 | encounter lines: 125 
-
-ident: to | count: 16 | encounter lines: 6 7 8 9 11 40 41 78 93 93 97 102 121 125 132 137 
-
-ident: Tree | count: 26 | encounter lines: 3 7 23 23 25 31 31 33 33 33 41 41 59 63 64 64 70 88 89 89 102 102 106 109 111 125 
-
-ident: TreeItem | count: 1 | encounter lines: 113 
-
-ident: trying | count: 1 | encounter lines: 40 
-
-ident: txt | count: 2 | encounter lines: 13 19 
-
-ident: ungetc | count: 1 | encounter lines: 101 
-
-ident: until | count: 1 | encounter lines: 49 
-
-ident: Usage | count: 1 | encounter lines: 19 
-
-ident: used | count: 3 | encounter lines: 8 9 78 
-
-ident: users | count: 1 | encounter lines: 129 
-
-ident: void | count: 2 | encounter lines: 7 109 
-
-ident: w | count: 1 | encounter lines: 117 
-
-ident: was | count: 6 | encounter lines: 43 59 84 113 119 129 
-
-ident: we | count: 2 | encounter lines: 49 80 
-
-ident: wFile | count: 4 | encounter lines: 117 119 125 127 
-
-ident: while | count: 6 | encounter lines: 27 49 78 78 93 121 
-
-ident: will | count: 1 | encounter lines: 70 
-
-ident: with | count: 2 | encounter lines: 57 82 
-
-ident: word | count: 14 | encounter lines: 57 59 59 72 75 75 82 82 84 93 97 102 102 
-
-ident: WORDLENGTH | count: 6 | encounter lines: 12 57 70 82 93 94 
-
-ident: words | count: 1 | encounter lines: 12 
-
-ident: WordsIndex | count: 1 | encounter lines: 13 
-
-ident: wordSize | count: 5 | encounter lines: 70 80 82 93 94 
-
-ident: work | count: 1 | encounter lines: 49 
-
-ident: write | count: 3 | encounter lines: 7 117 121 
-
-ident: WriteOutputFile | count: 3 | encounter lines: 7 31 109 
-
-ident: writing | count: 1 | encounter lines: 31 
-
-ident: Z | count: 2 | encounter lines: 134 
+ident: x | count: 2 | encounter lines: 20 27 
 

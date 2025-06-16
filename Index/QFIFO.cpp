@@ -107,6 +107,7 @@ void FQPrint( FQueue* q, FILE* wFile )
   while( head ) // while head is not NULL
   {
     fprintf( wFile, "%d ", head->pInfo ); // print into file
+    printf( "%d ", head->pInfo );
     head = head->pNext;       // change head to next element
   }
 }

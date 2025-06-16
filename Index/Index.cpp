@@ -35,6 +35,7 @@ int main( int argc, char* argv[] )
   return 0;
 }
 
+
 LP_TreeItem ReadInputFile( char* fileName )
 {
   FILE* file = fopen( fileName, "r" ); // trying to open file in read mode

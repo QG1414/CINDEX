@@ -70,9 +70,15 @@ void inOrder( LP_TreeItem pRoot, FILE* wFile )
   if( !pRoot ) return; // recursion stop condition
 
   inOrder( pRoot->pLeft, wFile ); // check left node
+
   fprintf( wFile, "ident: %s | count: %d | encounter lines: ", pRoot->identifier, pRoot->counter ); // save basic data to file
+  printf( "ident: %s | count: %d | encounter lines: ", pRoot->identifier, pRoot->counter );
+
   FQPrint( pRoot->pFifo, wFile );
+
   fprintf( wFile, "\n\n" );
+  printf("\n\n");
+
   inOrder( pRoot->pRight, wFile ); // check right node
 }
 
@@ -98,8 +104,10 @@ void Visit( LP_TreeItem pRoot, int lineNo )
     return;
   }
 
-  if( pRoot->pFifo->pHead->pInfo != lineNo ) // if its new element then enqueue it
+  if( pRoot->pFifo->pTail->pInfo != lineNo ) // if its new element then enqueue it
+  {
     FQEnqueue( pRoot->pFifo, lineNo );
+  }
 
   pRoot->counter++; // increase number of word encountering
 }
