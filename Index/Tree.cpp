@@ -105,9 +105,7 @@ void Visit( LP_TreeItem pRoot, int lineNo )
   }
 
   if( pRoot->pFifo->pTail->pInfo != lineNo ) // if its new element then enqueue it
-  {
     FQEnqueue( pRoot->pFifo, lineNo );
-  }
 
   pRoot->counter++; // increase number of word encountering
 }
